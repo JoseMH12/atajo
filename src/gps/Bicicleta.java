@@ -14,7 +14,9 @@ public class Bicicleta {
         boolean luces = false;
         String marca = "Orbea";
     }
-
+    
+    public static int comprobarCamino (int [] camino)
+    
     public static String rutaCorta(int[] camino1, int[] camino2, int[] camino3) {
         int sum1 = 0;
         int sum2 = 0;
